@@ -1,0 +1,34 @@
+#seasonsHead{
+	height: auto;
+	background-image: url(../images/season.jpg);
+	background-size: cover;
+	position: relative;
+	top: -20px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#seasonsHead h1{
+	text-align: center;
+	color: white;
+}
+
+#seasonsHead h2{
+	text-align: center;
+	color: lime;
+}
+
+#toorn .row iframe{
+	display: block;
+	margin: auto;
+
+}
+
+#toorn h1{
+	text-align: center;
+}
+
+#seasonbody h1{
+	text-align: center;
+}
+

@@ -1,0 +1,33 @@
+h2{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+p{
+	font-size: 18px;
+	line-height: 22px;
+	color: white;
+}
+h1{
+	text-align: center;
+	font-size: 25;
+	font-weight: bold;
+	color: white;
+}
+
+.faq-wrapper{
+	padding: 25px;
+	color: white;
+	background-image: url("../images/faq-background.jpg");
+	background-size: cover;
+	background-color: black;
+	margin-top: -25px;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	overflow: auto;
+	padding-bottom: 130px;
+
+}
+

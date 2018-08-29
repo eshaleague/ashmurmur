@@ -1,0 +1,171 @@
+*{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.gametabactive{
+	border-bottom: 4px solid #ff7900;
+
+}
+.thegames ul li .gamename{
+	width: 204px;
+	font-size: 25px;
+	text-align: left;
+	background-color: #ff7900;
+	color: white;
+	border-bottom: 4px solid #ff7900;
+	border-left: 4px solid #ff7900;
+	overflow: hidden;
+	height: 54px;
+
+}
+.thegames ul li .gamename:hover{
+	background-color: #ff7900 !important;
+	color: white !important;
+}
+.thegames{
+	background-color: white;
+	width: 594px;
+	border: none;
+	box-shadow: 0px 0px 0px black;
+	padding: none;
+	margin: auto;
+	height: 54px;
+
+	
+}
+
+
+.thegames ul li a,  .thegames ul li.active a {
+	background-color: white;
+	font-size:15px;
+	color: #0A1028;
+	width: 100%;
+	min-width: 83px;
+	background-color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	border-left: #eee solid 1px;
+	
+
+}
+
+.thegames ul li:hover, .thegames ul li.active{
+	border-bottom: 4px solid #ff7900;
+	color: #ff7900 !important;
+	background-color: white !important;
+}
+
+.thegames ul li a:hover, .thegames ul li.active a{
+	color: #ff7900 !important;
+	background-color: white !important;
+}
+
+.thegames ul li:first-child:hover, .thegames ul li.active a:first-child{
+	border-bottom: 0px solid #ff7900;
+	color: #ff7900 !important;
+}
+
+
+.thegamesback{
+	width: 100%;
+	min-height: 1200px;
+	background-color: #eee;
+	margin-top: -30px;
+	padding: 40px;
+}
+.thegames ul li {
+	list-style-type: none;
+	position: relative;
+	float: left;
+}
+
+/*//////////////////////////////////////////////////////scroll css ///////////////////////////////////////////////////*/ 
+.thegamesfixed{
+	position: fixed;
+}
+@media screen and (max-width: 600px) {
+    .thegames ul li:first-child{
+	display: none;
+	}
+	.thegames{
+		width: 300px;
+		background-color: rgba(0,0,0,0);
+	}
+	.thegames ul li a,  .thegames ul li.active a {
+	font-size:12px;
+	width: 100%;
+	min-width: 60px;
+	height: 50px;
+
+}
+}
+/*////////////////////////////////////////Thestats////////////////////////////////////////////*/
+.thegamesback table{
+	border-collapse:collapse;
+	margin: 0;
+}
+.thegamesback table thead tr td{
+	color: white;
+	text-align: center;
+}
+.thegamesback table tbody tr td{
+	border: none;
+	font-size: 14px;
+	padding: 3px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0);
+
+
+}
+.thegamesback table thead tr td:nth-child(9n+2){
+	text-align: left;
+
+}
+.thegamesback table thead tr td:nth-child(9n+1){
+	text-align: left;
+	width: 30px;
+
+}
+
+.thegamesback table tbody tr td:nth-child(9n+2){
+	text-align: left;
+
+}
+.thegamesback table tbody tr td:nth-child(9n+3){
+
+
+}
+.thegamesback table tbody tr:nth-child(even){
+	background-color: #eee;
+}
+.thegamesback table tbody tr:nth-child(odd){
+	background-color: white;
+}
+.centerstatstable{
+	display: block;
+	width: auto;
+	display: block;
+	margin: auto;
+	position: absolute;
+	 left: 50%;
+	 transform: translateX(-50%);
+}
+.centerstatstable input{
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+    .centerstatstable{
+	position: relative;
+}
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+.lobbylaunch form{
+	display: inline-block;
+
+}
+.lobbylaunch p{
+	display: inline-block;
+}
+.lobbylaunch .lobbyrow{
+	display: block;
+}
+
+.runninglobbies form{
+	display: inline-block;
+}
+.runninglobbies p{
+	display: inline-block;
+}
+
+.closedlobby{
+	color: white;
+	font-size: 20px;
+}

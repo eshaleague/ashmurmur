@@ -1,0 +1,202 @@
+*{
+	box-sizing: border-box;
+}
+.chat .messages{
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	display: block;
+	background-color: #080d21;
+	margin-top: 3px;
+
+}
+
+.chat .entry{
+	width: 500px;
+	max-width: 500px;
+	min-width: 500px;
+	height: 40px;
+	max-height: 40px;
+	min-height: 40px;
+	padding: 5px;
+	display: block;
+	background-color: #0f1632;
+	color: white;
+	border: none;
+
+}
+.chat .entry:focus{
+	outline:none;
+}
+
+.chat .messages .message span{
+	color: #8f8f8f;
+}
+.chat .messages .message p{
+	font-size: 15px;
+	color: white;
+	line-height: 35px;
+}
+.chat .messages br{
+	display: block;
+   	margin: 2px 0;
+}
+
+.message{
+	margin-top:-15px;
+
+}
+
+.lobbyplayers .firstteam{
+	width: 250px;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+
+}
+.lobbyplayers .secondteam{
+	width: 250px;
+	display: inline-block;
+	float: left;
+
+}
+
+.lobbyplayers .secondteam p{
+	background-color: #181c2a;
+	width: 90%;
+	margin: 3px;
+	padding: 2px;
+	color: #333;
+	font-size: 12px;
+	overflow: auto;
+	line-height: 20px;
+	padding-left: 4px;
+
+}
+.lobbyplayers .firstteam p{
+	background-color: #181c2a;
+	width: 90%;
+	margin: 3px;
+	padding: 2px;
+	color: #333;
+	font-size: 12px;
+	overflow: auto;
+	line-height: 20px;
+	padding-left: 4px;
+
+}
+.lobbyplayers {
+	display: block;
+	width: 528px;
+	
+	overflow: auto;
+	margin: auto;
+}
+
+.matchuptitle h1{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-size: 37px;
+	font-weight: bold;
+
+}
+
+.matchuptitle h1 span{
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+body{
+	background-color: #151e43;
+	padding: 10px;
+}
+
+.lolcustomlobby h1{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	line-height: 20px;
+	margin-top: -10px;
+	font-weight: bold;
+	background-color: #080d21;
+	width: 240px;
+	margin: auto;
+	padding: 10px;
+	padding-top: 5px;
+}
+
+.lolcustomlobby td{
+	font-size: 12px;
+	border: none;
+	background-color: #0f1632;
+	color: white;
+}
+.lolcustomlobby td:nth-child(odd){
+	font-weight: bold;
+}
+
+.lolcustomlobby table{
+	width: 240px;
+	margin-top: -5px;
+	background-color: #0f1632;
+
+}
+
+.lolcustomlobby h2{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+
+}
+
+.lolcustomlobby{
+	
+
+}
+
+.lobby-button-wrapper{
+	width: 210px;
+	margin: auto;
+	display: block;
+	height: 60px;
+}
+.lobby-button-wrapper div{
+	width: 100px;
+	height: 50px;
+	border: none;
+	display: inline-block;
+	margin-right: 2px;
+	text-align: center;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.lobby-button-wrapper #score{
+	background-color: #c0392b;
+	color: white;
+	border-bottom: #111 4px solid;
+}
+.lobby-button-wrapper #score:hover{
+	background-color: #080d21;
+	color: white;
+	border-bottom: black 0px solid;
+	margin-top: 4px;
+}
+
+.lobby-button-wrapper #mogclip{
+	background-color: #f39c12;
+	color: white;
+	border-bottom: black 4px solid;
+}
+
+.lobby-button-wrapper #mogclip:hover{
+	background-color: #080d21;
+	color: white;
+	border-bottom: black 0px solid;
+	margin-top: 4px;
+}

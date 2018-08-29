@@ -1,0 +1,1077 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Lato', sans-serif;
+}
+
+
+
+p{
+font-size: 20px;
+color: #0A1028;
+line-height: 40px;
+
+}
+
+th{
+font-size: 20px;
+color: white;
+line-height: 40px;
+text-align: center;
+font-weight: normal;
+
+}
+td{
+color: #0A1028;
+padding: 10px;
+
+
+}
+
+td:nth-child(even){
+padding-left: 30px;
+
+}
+
+td:nth-child(odd){
+position: relative;
+padding-top: ;
+}
+
+tbody td{
+background-color: white;
+border: solid #0A1028 1px;
+font-size: 20px;
+color: #0A1028;
+}
+table{
+width: 70vw;
+max-width: 700px;
+margin: auto;
+margin-top: 20px;
+
+
+}
+thead{
+border: solid #0A1028 1px;
+background-color: #0A1028;
+}
+h1{
+font-size: 30px;
+font-weight: normal;
+color: #0A1028;
+}
+
+#main{
+height: auto;
+width: 100%;
+overflow: hidden;
+display: block;
+position: relative;
+top: -20px;
+/*background-image: url("./images/backgroundStill.jpg");
+background-size: cover;
+background-position: top;
+*/
+}
+
+#filter{
+background-color: black;
+min-height: 100%;
+min-width: 100%;
+}
+
+.mainLogo{
+background-image: url(../images/Logo.svg);
+height: 60%;
+width: 60%;
+background-size: cover;
+margin: auto;
+margin-top: 65px;
+position: relative;
+
+}
+
+#welcome{
+overflow:auto;
+background-image: url('../images/dota.jpg');
+background-size: cover;
+background-position: center center;
+
+
+
+}
+
+
+#how{
+overflow:auto;
+background-image: url('../images/league.jpg');
+background-size: cover;
+background-position: center center;
+
+
+
+}
+
+#welcomeSpace{
+margin: 10% 0% 20% 0%;
+}
+#medals{
+background-image: url('../images/medals.png');
+height: 550px;
+width: 100%;
+background-size:contain;
+background-repeat:no-repeat;
+
+}
+#folder{
+background-image: url('../images/folder.png');
+height: 500px;
+width: 100%;
+background-size:contain;
+background-repeat:no-repeat;
+
+}
+
+#teams{
+background-image: url('../images/teams.png');
+height: 550px;
+width: 100%;
+background-size:100%;
+background-repeat:no-repeat;
+
+}
+
+#timeline{
+overflow:auto;
+background-image: url('../images/timelineBackground.png');
+background-size: cover;
+background-position: 100% 100%;
+
+}
+
+#video-background{
+position: absolute;
+right: 0; 
+bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+width: auto; 
+height: auto;
+z-index: -1;
+
+}
+#still{
+position: absolute;
+right: 0; 
+bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+width: auto; 
+height: auto;
+z-index: -2;
+background-image: url("../images/backgroundStill.png");
+background-size: cover;
+background-position: top;
+
+}
+
+span{
+
+}
+
+#teamOne{
+height: 300px;
+width: 300px;
+background-image:url("../images/wci.png");
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+#teamTwo{
+height: 300px;
+width: 300px;
+background-image:url("../images/sjam.png");
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: 100px;
+}
+
+#crowd{
+background-image:url("../images/crowd.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+.navbar {
+background-color: #0A1028;
+box-shadow: 0px 1px 1px black;
+margin: 0;
+
+
+}
+.navbar-nav li a, .navbar-nav li.active a {
+background-color: #0A1028;
+font-size:17px;
+transition: background-color 0.2s ease-in;
+}
+
+.navbar li a, .navbar .navbar-brand {
+color: #fff !important;
+}
+
+.mainnav li a:hover, .mainnav li.active a {
+background-color: #2099ff !important;
+transition: background-color 0s ease-in;
+}
+.profile{
+width: 150px;
+}
+
+.aboutRow{
+width: 450px; 
+height:170px; 
+margin: auto;
+margin-top: 50px;
+
+}
+.aboutFirst{
+width: 150px; 
+height: 100%;
+float: left;
+padding-left: 0px;
+
+}
+.aboutSecond{
+height: 100%; 
+width: 300px; 
+display:inline-block;
+padding-top:18px;
+padding-left: 15px;
+}
+.aboutSecond p{
+font-size: 18px;
+}
+.aboutNames{
+font-size: 30px;
+}
+
+@media only screen and (max-width: 600px){
+.thin{
+content: url("../images/timelineThin.png");
+}
+#teamOne{
+margin-top: 20px;
+
+}
+
+#teamTwo{
+display: none;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 480px){
+.profile{
+width: 80px;
+}
+.aboutRow{
+width: 350px; 
+height:130px; 
+margin: auto;
+}
+.aboutFirst{
+width: 100px; 
+padding-left: 15px;
+}
+.aboutSecond{
+width: 250px; 
+padding-top:0px;
+}
+.aboutNames{
+font-size: 30px;
+}
+
+
+
+}
+
+
+.timelineRing{
+
+width: 320px;
+height: 320px;
+background-size: contain;
+margin: auto;
+right: -143px ;
+position: relative;
+background-repeat: no-repeat;
+background-image: url('../images/timelineRing.svg');
+z-index: 0;
+animation-name: rotate;
+animation-duration: 14s;
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+}
+.timelineNew{
+width: 1000px;
+margin:auto;
+display: block;
+margin-top: -308px;
+margin-bottom: 20px;
+
+position: relative;
+
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+.timelineNew{
+width: 500px;
+margin:auto;
+display: block;
+margin-top: -154px;
+margin-bottom: 20px;
+
+}	
+.timelineRing{
+width: 160px;
+height: 160px;
+background-size: contain;
+margin: auto;
+right: -72px ;
+
+
+}
+}
+
+@media only screen and (max-width: 550px) {
+.timelineRing{
+left: 241px ;
+margin: 0;
+
+
+}
+}
+
+@keyframes rotate{
+0%   { transform: rotate(0deg);}
+14%   {transform:  rotate(60deg);}
+16%   {transform:  rotate(60deg);}	
+30%   {transform:  rotate(120deg);}	
+32%   {transform:  rotate(120deg);}	
+46%   {transform:  rotate(180deg);}	
+48%   {transform:  rotate(180deg);}
+62%   {transform:  rotate(240deg);}	
+64%   {transform:  rotate(240deg);}
+78%   {transform:  rotate(300deg);}	
+82%   {transform:  rotate(300deg);}
+96%   {transform:  rotate(360deg);}	
+100%   {transform:  rotate(360deg);}	
+}
+
+.whiteBackground{
+background-image: url("../images/whiteBackground.png");
+background-size: cover;
+background-position: center center;
+}
+.registerButton{
+height: 60px;
+width: 180px;
+margin: auto;
+text-align: center;
+cursor: pointer;
+font-size: 20px;
+transition: background-color 0.07s ease-in;
+display: none;
+margin-top: -50px;
+margin-bottom: 70px;
+font-weight: bold;
+}
+
+.registerButton:hover{
+background-color: #2099ff;
+}
+
+.frame{
+display:block; 
+width: 60vw; 
+margin: auto;
+}
+.games{
+width: 533px;
+margin: auto;
+overflow-x: auto; 
+overflow-y: hidden;
+}
+.hiddenAnchor{
+display: none;
+}
+.darkOne{
+background-image: url("../images/dark.jpg");
+background-size: cover;
+background-position: center center;
+}
+.darkClass{
+background-image: url("../images/Room.jpg");
+background-size: cover;
+background-position: center center;
+}
+@media only screen and (max-width: 550px) {
+.frame{
+display: none;		
+
+
+}
+.registerButton{
+display: block;
+}
+.games{
+display: none;	
+}
+.hiddenAnchor{
+display: none;
+}
+#video-background{
+display: none;
+}
+#main{
+background-image: url("../images/backgroundStill.jpg");
+background-size: cover;
+background-position: top;
+background-color: grey;
+}
+.gameWords p{
+line-height: 20px;
+}
+.gameWords{
+display: block;
+}
+
+}
+
+#ready{
+background-image: url("../images/ready.jpg");
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+}
+.gameWords p{
+color: white;
+text-align: center;
+text-shadow: 2px 2px 2px #000000;
+
+
+}
+.gameWords{
+display: none;
+}
+.-Hover:hover{
+color: #D2D7D3;
+text-decoration: none;
+transition: color ease 0s;
+}
+.newsHover{
+color: #0a1028;
+transition: color ease 0.3s;
+}
+#captainDates td{
+padding: 5px;
+}
+
+.activeCaptain{
+color: white;
+background-color: #0A1028;
+}
+
+#schools td{
+padding: 3px;
+}
+
+#welcomeSpace li{
+margin-bottom: 15px;
+}
+.registerButton{
+width: 200px;
+display: block;
+margin: auto;
+
+}
+
+#frontRegister{
+font-size: 25px;
+background-color: #2099ff;
+color: white; 
+text-decoration: none;
+transition: background-color 0.06s ease;
+height: 60px;
+width: 250px;
+
+}
+#frontRegister:hover > .registerButtoninner{
+	animation-name: registerbuttonfirst;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+
+}
+#frontRegister:hover > .registerButtoninner a{
+	animation-name: registerbuttonfirsttext;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+
+}
+#frontRegister .registerButtoninner a{
+	color: white;
+	margin-top: 20px;
+	line-height: 60px;
+}
+#frontRegister:hover{
+text-decoration: none;
+background-color: ;
+transition: background-color 0.06s ease;
+}
+#frontRegister .registerButtoninner a:hover{
+text-decoration: none;
+
+}
+.registerButtoninner{
+	height: 0%;
+	width: 100%;
+	background-color: white;
+	position: relative;
+	bottom: 0;
+	animation-name: registerbuttonfirstout;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+
+
+}
+
+@keyframes registerbuttonfirst{
+	0%{height: 0%;}
+	100%{height: 100%;}
+}
+@keyframes registerbuttonfirstout{
+	0%{height: 100%;}
+	100%{height: 0%;}
+}
+@keyframes registerbuttonfirsttext{
+	0%{color: white;}
+	100%{color: black;}
+}
+
+#eshaLogo{
+background-image: url('../images/darkLogoLong.png');
+height: 550px;
+width: 90%;
+background-size:contain;
+background-repeat:no-repeat;
+background-position: center center;
+}
+#captainsLogo{
+background-image: url('../images/captains.png');
+height: 400px;
+width: 100%;
+background-size:contain;
+background-repeat:no-repeat;
+background-position: left center;
+}
+.overImage{
+	transition: ease opacity 0.3s;
+}
+.overImage:hover{
+	opacity: 0.7;
+	transition: ease opacity 0s;
+}
+.titleCenter{
+	text-align: center;
+}
+
+iframe{
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.mogSubmit{
+	background-color: #0a1028;
+	color: white;
+	height: 40px;
+	width: 120px;
+	margin: auto;
+	text-align: center;
+	padding-top: 2px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 4px solid white;
+	text-decoration: none !important;
+	transition: border 0.1s ease-in;
+	transition: color 0s ease-in;
+}
+.mogSubmit:hover{
+	border: 4px solid #E9D460;
+	cursor: pointer;
+	color: #E9D460;
+	text-decoration: none !important;
+
+
+}
+.mogSubmit a {
+
+	text-decoration: none !important;
+	color: white;
+
+}
+.mogSubmit a:hover {
+
+	text-decoration: none !important;
+	color: #E9D460;
+}
+
+/* NEWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWs */
+.news-panel{
+	height: 200px;
+	width: 98%;
+	background-color: black;
+	margin: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 10px;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	transition: opacity 0.3s ease;
+	animation-name: panel-highlight-out;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+@keyframes panel-highlight{
+	0%{border-bottom: 0px solid #2099ff;}
+	100%{border-bottom: 5px solid #2099ff;}
+}
+@keyframes panel-highlight-out{
+	0%{border-bottom: 5px solid #2099ff;}
+	100%{border-bottom: 0px solid #2099ff;}
+}
+
+.news-panel h3{
+	color: white;
+	margin-top: 10px;
+	font-size: 22px;
+	position: absolute;
+	bottom: 0px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.news-panel p{
+	color: white;
+	font-size: 15px;
+	font-weight: normal;
+	position: absolute;
+	line-height: 18px;
+	bottom: 3px;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+.news-panel:hover{
+	filter: contrast(110%);
+	cursor: pointer;
+	transition: filter 0.3s ease;
+	animation-name: panel-highlight;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+	
+}
+
+.news-panel h4{
+	color: white;
+	position: absolute;
+	top: 0px;
+	text-shadow: 2px 2px 2px #000000;
+	font-size: 18px;
+}
+
+.allnewscard{
+	display: inline-block;
+	width: 370px;
+	margin: 12px;
+}
+
+.allnewscard .news-panel{
+	height: 220px;
+} 
+
+.allnewscard .news-panel h3{
+	font-size: 18px;
+} 
+
+
+.allnewscard .news-panel p{
+	font-size: 15px;
+} 
+
+.scrimlobby{
+	background-color: #151e43;
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+}
+
+.scrimlobby h1{
+	text-align: center;
+	color: white;
+}
+
+.scrimlobby h2{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.scrimlobby .scrimteams{
+	width: 600px;
+	display: block;
+	margin: auto;
+}
+
+.scrimlobby .player{
+	width: 298px;
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	margin: 1px;
+	background-color: #080d21;
+	height: 40px;
+}
+.scrimlobby .player:first-child{
+	border: solid white 1px;
+}
+.scrimgameheader{
+	width: 598px;
+	height: 40px;
+	display: block;
+	margin: auto;
+	background-color: black
+	background-size: cover;
+	margin-bottom: 1px;
+}
+
+#lolscrimheader{
+	background-image: url("../images/lolscrimheader.jpg");
+}
+
+.lolscrimlobbyinfo{
+	width: 400px;
+	background-color: #0f1632;
+	display: block;
+	margin: auto;
+}
+
+.lolscrimlobbyinfo h1{
+	font-size: 25px;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	background-color: #080d21;
+}
+
+.lolscrimlobbyinfo td{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	color: white;
+	font-size: 17px;
+	width: 270px;
+	padding: 10px;
+
+}
+
+
+.lolscrimlobbyinfo td:nth-child(odd){
+	font-weight: bold;
+	width: 130px;
+
+}
+.lolscrimlobbyinfo table{
+	margin-top: 0px;
+	width: 400px;
+	
+}
+
+.scrims h5{
+	font-size: 30px;
+
+}
+
+.scrim-schedule table{
+	width: 600px;
+	display: block;
+	margin: auto;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.scrim-schedule table thead tr td{
+	color: white;
+	background-color: #0f1632;
+	text-align: center;
+	padding: 10px;
+}
+
+.scrim-schedule table tbody tr td{
+	padding: 10px;
+	border: none;
+	line-height: 25px;
+}
+
+.scrim-schedule h1{
+	text-align: center;
+	font-size: 25px;
+}
+
+.scrim-head-buttons{
+	display: block;
+	margin: auto;
+	width: 250px;
+	height: 50px;
+}
+button:focus {outline:0;}
+
+.scrim-head-buttons button{
+	border: none;
+	margin: 1px;
+	height: 100%;
+	width: 123px;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+	background-color: #2b3662;
+	text-decoration: none;
+}
+.scrim-head-buttons button:hover{
+	background-color: white;
+	color: black;
+}
+
+.navbar-toggle {
+  border: none;
+}
+
+.mainpage .row{
+	max-width: 1300px; 
+	margin: auto;
+}
+
+
+#mainslide{
+	padding: 0;
+	width: 100%;
+	max-height: 1000px;
+
+}
+
+
+.carousel-caption h2{
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+	width: 80%;
+	padding-bottom: 2px;
+	font-size: 35px;
+
+}
+
+.carousel-caption{
+	height: auto;
+	padding: 0;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 0;
+	z-index: 200;
+	display: block;
+	position: relative;
+	left: 0;
+
+
+}
+.carousel-caption p{
+	color: white;
+	line-height: 20px;
+	margin-top: 7px;
+
+}
+
+#myCarousel{
+	max-height: 200px;
+}
+.carousel-wrapper{
+	display: block;
+	max-width: 1050px;
+	margin: auto;
+	height: auto;
+	background-color: red;
+	position: absolute;
+	z-index: 300;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	
+}
+.carousel-wrapper a{
+	display: block;
+	max-width: 1050px;
+	margin: auto;
+	height: auto;
+	position: absolute;
+	z-index: 300;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	
+}
+.inner{
+	height: 100%;
+	animation-name: sliderout;
+	animation-duration: 0.2s;
+	background-color: #2099ff;
+	animation-fill-mode: forwards;
+
+}
+.carousel-wrapper a:hover{
+	text-decoration: none;
+
+}
+.carousel-wrapper a:hover .outer .inner{
+	animation-name: slider;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	transition: 0.5s width ease;
+
+}
+.carousel-wrapper:hover + .news-banner-image{
+	filter: contrast(110%);
+	transition: 0.2s filter;
+}
+
+#bannershad{
+		width: 1300px; display: block; position: absolute; top: 0; left: 0; right: 0; z-index: 100; margin: auto; height: 100%;
+	}
+
+@media only screen and (max-width: 780px){
+	.carousel-caption{
+		left: 2%;
+	}
+
+	#myCarousel{
+		min-height: 270px;
+	}
+	#bannershad{
+		
+		opacity: 0;
+	}
+	.news-banner-image{
+		width: 500px;
+		margin: auto;
+	
+
+	}
+
+
+}
+
+.outer{
+	height: 5px;
+	display: block;;
+	width: 70%;
+	background-color: white;
+}
+
+@keyframes slider{
+	0%{width: 0%; background-color: #2099ff;}
+	100%{width: 100%; background-color: #2099ff;}
+}
+
+@keyframes sliderout{
+	0%{width: 100%; }
+	100%{width: 0%; }
+}
+
+.stepnumber{
+	height: 50px;
+	width: 50px;
+	background-color: #0A1028;;
+	color: white;
+	font-size: 33px;
+	text-align: center;
+	border-radius: 100%;
+}
+
+.tablebackground{
+	background-color: #0A1028;
+	background-image: url("../images/tableBackground.png");
+	background-size: cover;
+	background-position: center center;
+	background-color: black;
+}
+.seasonbanner{
+	background-color: black;
+	background-image: url("../images/trailerBackground.png");
+	background-size: cover;
+	background-position: center bottom;
+	padding: 30px;
+}
+
+.footer{
+	background-color: #0A1028;
+	color: white;
+}
+
+.footer h3{
+	font-weight: bold;
+
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	
+}
+.footer h4{
+	color: #ddd;
+	transition: opacity 0.2s ease;
+}
+.footer h4:hover{
+	color: white;
+	transition: opacity 0.2s ease;
+}
+
+.footer p{
+	color: white;
+	font-size: 14px;
+	margin: 0;
+	text-align: center;
+}
+
+.footer img{
+	opacity: 0.85;
+	transition: opacity 0.2s ease;
+}
+
+.footer img:hover{
+	opacity: 1;
+	transition: opacity 0.2s ease;
+}
